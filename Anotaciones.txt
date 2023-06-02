@@ -1,0 +1,13 @@
+1. En la carpeta banners se encuentra cada subcarpeta de cada uno de los banners con sus archivos zip dentro.
+
+2. EL landing page lo maqueté en html y css en VS ya que estab mas familizarizado en realizarlo de esta manera,
+   al momento de querer integrar el html y css a wordpress presenté problemas con el css ya que anteriormente
+   wordpress permitía añadir el css de manera un poco mas sencilla por ende la parte visual del landing
+   en wordpress no esta correcta. No logré implementar el guardado del formulario en wordpress especialmente
+   por la misma herramienta, gracias a plugins como WPForms es más sencillo y realizar el trabajo de guardado de 
+   información más la descarga se hacía relativamente más fácil, la dificultad fue al momento de conectar 
+   el plugin con el fomrulario html en la página de wordpress.
+   
+   Este es el link al sitio en wordpress: https://lpruebatecnicajuantrejo.server1.trinchera.dev/index.php/15-2/?preview=true
+   Visualmente el landing page quedó completo en la carpeta landin-page con html y css.
+
