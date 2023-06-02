@@ -1,0 +1,98 @@
+:root{
+    --blanco: #ffff;
+    --negro: #000000;
+    --bg-oscuro:#020A12;
+    --fuente: 'Poppins', sans-serif;
+}
+
+html{
+    box-sizing: border-box; /*Para que le margin padding no afecte el ancho de nuestros elementos*/
+}
+.banner{
+    width: 300px;
+    height: 600px;
+}
+.image-bg{
+    background-image: url('./assets/image-bg.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.logo img{
+    box-sizing: border-box;
+    position: absolute;
+    width: 39px;
+    height: 38.77px;
+    left: 25px;
+    top: 20px;
+}
+.title h1{
+    position: absolute;
+    width: 207.03px;
+    height: 95px;
+    left: 25px;
+    top: 330px;
+
+    color: var(--blanco);
+    font-family: var(--fuente);
+    font-style: italic;
+    font-weight: 900;
+    font-size: 44.2517px;
+    line-height: 47px;
+    text-transform: uppercase;
+}
+.subtitle p{
+    position: absolute;
+    width: 236px;
+    height: 23px;
+    left: 25px;
+    top: 450px;
+
+    color: var(--blanco);
+    font-family: var(--fuente);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.3301px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+}
+
+.button button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 134px;
+    height: 31.75px;
+    left: 25px;
+    top: 500px;
+
+    background: var(--blanco);
+    border: 1.06643px solid rgba(255, 255, 255, 0.35);
+    border-radius: 18.1294px;
+
+    font-family: var(--fuente);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.6071px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: var(--negro);
+    text-transform: uppercase;
+}
+
+.text p{
+    position: absolute;
+    width: 272px;
+    height: 36px;
+    left: 25px;
+    top: 549px;
+
+    font-family: var(--fuente);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 10px;
+    letter-spacing: 0.01em;
+
+    color: #A0A0A0;
+}

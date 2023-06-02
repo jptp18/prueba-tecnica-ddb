@@ -1,0 +1,84 @@
+:root{
+    --blanco: #ffff;
+    --negro: #000000;
+    --bg-oscuro:#020A12;
+    --fuente: 'Poppins', sans-serif;
+}
+
+html{
+    box-sizing: border-box; /*Para que le margin padding no afecte el ancho de nuestros elementos*/
+}
+
+.banner{
+    width: 300px;
+    height: 100px;
+    background-color: var(--bg-oscuro);
+}
+
+.img-bg{
+    background-image: url('./assets/image-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.logo img{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 20px;
+    top: 39px;
+}
+.title h1{
+    position: absolute;
+    width: 207px;
+    height: 31px;
+    left: 68px;
+    top: 10px;
+
+    font-family: var(--fuente);
+    font-style:italic;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.subtitle p{
+    position: absolute;
+    width: 236px;
+    height: 23px;
+    left: 68px;
+    top: 32px;
+
+    font-family: var(--fuente);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: var(--blanco);
+}
+
+.button button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 68px;
+    top: 65px;
+
+    background: #FFFFFF;
+    border: 1.06643px solid rgba(255, 255, 255, 0.35);
+    border-radius: 18.1294px;
+
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.01em;
+    font-family: var(--fuente);
+    text-transform: uppercase;
+
+}

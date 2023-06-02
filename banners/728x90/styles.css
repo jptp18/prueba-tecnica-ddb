@@ -1,0 +1,88 @@
+:root{
+    --blanco: #ffff;
+    --negro: #000000;
+    --bg-oscuro:#020A12;
+    --fuente: 'Poppins', sans-serif;
+}
+
+html{
+    box-sizing: border-box; /*Para que le margin padding no afecte el ancho de nuestros elementos*/
+}
+
+.banner{
+    width: 728px;
+    height: 90px;
+}
+.img-bg{
+    background-image: url('./assets/image-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 85%;
+    background-color: var(--bg-oscuro);
+    width: 100%;
+    height: 100%;
+}
+
+/*Logo*/
+.logo{
+    position: absolute;
+    box-sizing: border-box;
+    width: 42px;
+    height: 42px;
+    left: 25px;
+    top: 30px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Texto*/
+.title{
+    position: absolute;
+    width: 207.03px;
+    height: 31px;
+    left: 90px;
+    top: 5px;
+    font-family: var(--fuente);
+    color: var(--blanco);
+    font-weight: 900;
+    font-size: 13px;
+    font-style: italic;
+    text-transform: uppercase;
+
+}
+.subtitle{
+    position: absolute;
+    width: 236px;
+    height: 23px;
+    left: 90px;
+    top: 40px;
+    font-family: var(--fuente);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.3301px;
+    line-height: 23px;
+    color: var(--blanco);
+    letter-spacing: 0.01em;
+}
+
+/*Botón*/
+.button button{
+    background: var(--blanco);
+    border: 1.06643px solid rgba(255, 255, 255, 0.35);
+    border-radius: 18.1294px;
+    position: absolute;
+    width: 134px;
+    height: 31.75px;
+    left: 566px;
+    top: 42px;
+    font-family: var(--fuente);
+    color: var(--negro);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.6071px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
